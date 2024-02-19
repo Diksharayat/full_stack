@@ -91,7 +91,7 @@ app.use(globalErrHandler);
 
  
 // listen to server
-const port = process.env.PORT||3001;
+const port = 3001;
 
 app.listen(port,console.log(`SERVER IS UP AND RUNNING ON PORT ${port}`));
 
