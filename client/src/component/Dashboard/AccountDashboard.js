@@ -5,7 +5,7 @@ import AccountList from "./AccountList";
 
 const AccountDashboard = () => {
  
-const { fetchProfileAction,profile,error }=useContext(authContext);
+const {fetchProfileAction,profile,error }=useContext(authContext);
 
 
 //dispatch action
